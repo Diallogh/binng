@@ -18,7 +18,7 @@ export default function App() {
         >
           <MainNavigator.Screen name="Login" component={Login} />
           <MainNavigator.Screen name="Home" component={Home} />
-          <MainNavigator.Screen name="cart" component={cart} />
+          <MainNavigator.Screen name="info" component={info} />
         </MainNavigator.Navigator>
       </NavigationContainer>
     </View>
